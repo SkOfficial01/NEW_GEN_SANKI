@@ -1,4 +1,4 @@
-/eval import datetime
+import datetime
 from DAXXMUSIC import app
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token

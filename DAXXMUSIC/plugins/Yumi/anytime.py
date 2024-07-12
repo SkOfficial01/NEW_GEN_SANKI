@@ -2,7 +2,7 @@ import datetime
 from DAXXMUSIC import app
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '7473830088:AAFUvpAti-vlZMG7ADwK8toY199W1OZh4cc'
 
 def send_good_morning(context):
     context.bot.send_message(context.job.context, text='Good morning! ☀️')

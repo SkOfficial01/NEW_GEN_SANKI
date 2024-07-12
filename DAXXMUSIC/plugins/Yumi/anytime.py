@@ -14,7 +14,7 @@ def send_good_night(context):
     context.bot.send_message(context.job.context, text='Good night! 🌙')
 
 def set_up_timed_messages():
-    updater = Updater(token=TOKEN, use_context=True)
+    updater = Updater(token=TOKEN, use_context=False)
     job_queue = updater.job_queue
 
     # Time for morning message (adjust as needed)

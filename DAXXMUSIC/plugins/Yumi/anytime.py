@@ -21,7 +21,7 @@ def set_up_timed_messages():
     morning_time = datetime.time(hour=7, minute=0, second=0)
 
     # Time for afternoon message (adjust as needed)
-    afternoon_time = datetime.time(hour=14, minute=10, second=0)
+    afternoon_time = datetime.time(hour=14, minute=17, second=0)
 
     # Time for night message (adjust as needed)
     night_time = datetime.time(hour=21, minute=0, second=0)

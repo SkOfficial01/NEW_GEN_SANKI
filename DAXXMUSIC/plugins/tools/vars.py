@@ -4,10 +4,10 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from AarohiX import app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database.memorydatabase import get_video_limit
-from AarohiX.utils.formatters import convert_bytes
+from DAXXMUSIC import app
+from DAXXMUSIC.misc import SUDOERS
+from DAXXMUSIC.utils.database.memorydatabase import get_video_limit
+from DAXXMUSIC.utils.formatters import convert_bytes
 
 VARS_COMMAND = get_command("VARS_COMMAND")
 

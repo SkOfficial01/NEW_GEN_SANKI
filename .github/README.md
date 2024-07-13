@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/4abd6e0f613946553de53.jpg">
+  <img src="https://firebasestorage.googleapis.com/v0/b/social-bite-skofficial.appspot.com/o/5947BCAE-D936-46F2-A691-4A784833A80D.jpeg?alt=media&token=481bbefb-8d14-4c0b-abac-92f2fdf61abe">
 </p>
 
 <p align="center">

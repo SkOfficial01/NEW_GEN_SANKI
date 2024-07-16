@@ -24,7 +24,7 @@ def set_up_timed_messages():
     afternoon_time = datetime.time(hour=14, minute=20, second=0)
 
     # Time for night message (adjust as needed)
-    night_time = datetime.time(hour=23, minute=40, second=0)
+    night_time = datetime.time(hour=24, minute=00, second=0)
 
     # Schedule messages
     job_queue.run_daily(send_good_morning, morning_time, context=updater.bot)

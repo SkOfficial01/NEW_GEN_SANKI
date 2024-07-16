@@ -37,7 +37,7 @@ def set_up_timed_messages():
         afternoon_time = datetime.time(hour=14, minute=20, second=0)
 
         # Time for night message (adjust as needed)
-        night_time = datetime.time(hour=24, minute=15, second=0)
+        night_time = datetime.time(hour=24, minute=20, second=0)
 
         # Check current time and send appropriate message
         if current_time >= morning_time and current_time < datetime.time(hour=7, minute=1, second=0):
@@ -48,7 +48,7 @@ def set_up_timed_messages():
             send_good_afternoon()
             time.sleep(60)  # Sleep for 1 minute to avoid multiple sends
 
-        elif current_time >= night_time and current_time < datetime.time(hour=24, minute=15, second=0):
+        elif current_time >= night_time and current_time < datetime.time(hour=24, minute=20, second=0):
             send_good_night()
             time.sleep(60)  # Sleep for 1 minute to avoid multiple sends
 

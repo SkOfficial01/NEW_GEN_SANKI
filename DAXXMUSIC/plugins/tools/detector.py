@@ -1,5 +1,4 @@
 import logging
-from telegram.ext import Updater, CommandHandler
 from DAXXMUSIC import app
 
 class ActiveMembersDetector:

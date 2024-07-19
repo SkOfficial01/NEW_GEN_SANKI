@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
-
+from DAXXMUSIC import app
 # Initialize your Pyrogram Client
 app = Client("my_bot")
 

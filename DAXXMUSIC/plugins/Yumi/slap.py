@@ -33,7 +33,7 @@ async def slap(_, message):
         chat_id=message.chat.id,
         text=slap_message,
         reply_markup=InlineKeyboardMarkup(BUTTON),
-        parse_mode='markdown'
+        parse_mode="markdown"
     )
 
 # Help command text

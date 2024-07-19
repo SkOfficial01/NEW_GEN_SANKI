@@ -2,6 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 from DAXXMUSIC import app
+
 # Initialize your Pyrogram Client
 app = Client("my_bot")
 
@@ -29,10 +30,12 @@ async def slap(_, message):
     slap_message += f"\n\nDamage: {slap_percent}%"
     
     # Send the message with the slap result
-    await app.send_message(
-        chat_id=message.chat.id,
-        text=slap_message,
-        reply_markup=InlineKeyboardMarkup(BUTTON)
+    await app.send_animation(
+        chat_id=m.chat.id,
+        animation=url,
+        caption=slap,
+        reply_markup=InlineKeyboardMarkup(
+            [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/IndianLunaChatters")]])
     )
 
 # Help command text

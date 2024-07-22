@@ -1,7 +1,7 @@
 import math
-from config import SUPPORT_CHAT, OWNER_USERNAME
 from pyrogram.types import InlineKeyboardButton
 from DAXXMUSIC import app
+import config
 from DAXXMUSIC.utils.formatters import time_to_seconds
 
 
@@ -53,7 +53,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     else:
         bar = "—————————◉"
     buttons = [
-               [
+                [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
@@ -65,34 +65,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-                 [
-            InlineKeyboardButton(
-
-                text="ᴄʀᴇᴀᴛᴏʀ",
-
-                url=f"t.me/{OWNER_USERNAME}",
-
-            ),
-            InlineKeyboardButton(
-
-                text="ɢʀᴏᴜᴘ",
-
-                url=f"{SUPPORT_CHAT}",
-
-            ),
-    ],          
-             [
-            InlineKeyboardButton(
-
-                text="ᴄᴏᴍᴍᴜɴɪᴛʏ",
-
-                url=f"https://t.me/SANKI_XDX"),
-         InlineKeyboardButton(
-
-                text="ᴡᴇʙsɪᴛᴇ",
-
-                url=f"https://telegra.ph/SANKI-XD-06-26"),
-        ],       
+        
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -106,34 +79,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-                 [
-            InlineKeyboardButton(
-
-                text="ᴄʀᴇᴀᴛᴏʀ",
-
-                url=f"t.me/{OWNER_USERNAME}",
-
-            ),
-            InlineKeyboardButton(
-
-                text="ɢʀᴏᴜᴘ",
-
-                url=f"{SUPPORT_CHAT}",
-
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-
-                text="ᴄᴏᴍᴍᴜɴɪᴛʏ",
-
-                url=f"https://t.me/SANKI_XDX"),
-         InlineKeyboardButton(
-
-                text="ᴡᴇʙsɪᴛᴇ",
-
-                url=f"https://telegra.ph/SANKI-XD-06-26"),
-        ],
+            
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons

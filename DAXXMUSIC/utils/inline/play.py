@@ -53,7 +53,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     else:
         bar = "—————————◉"
     buttons = [
-                [
+               [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
@@ -68,19 +68,31 @@ def stream_markup_timer(_, chat_id, played, dur):
                  [
             InlineKeyboardButton(
 
-                text="ᴅᴇᴠ 💕",
+                text="ᴄʀᴇᴀᴛᴏʀ",
 
                 url=f"t.me/{OWNER_USERNAME}",
 
             ),
             InlineKeyboardButton(
 
-                text="💌 ɢʀᴏᴜᴘ",
+                text="ɢʀᴏᴜᴘ",
 
                 url=f"{SUPPORT_CHAT}",
 
             ),
-        ],
+    ],          
+             [
+            InlineKeyboardButton(
+
+                text="☢ᴄᴏᴍᴍᴜɴɪᴛʏ☢",
+
+                url=f"https://t.me/SANKI_XDX"),
+         InlineKeyboardButton(
+
+                text="☢ᴡᴇʙsɪᴛᴇ☢",
+
+                url=f"https://telegra.ph/SANKI-XD-MUSIC-05-27"),
+        ],       
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -97,18 +109,30 @@ def stream_markup(_, chat_id):
                  [
             InlineKeyboardButton(
 
-                text="ᴅᴇᴠ 💕",
+                text="ᴄʀᴇᴀᴛᴏʀ",
 
                 url=f"t.me/{OWNER_USERNAME}",
 
             ),
             InlineKeyboardButton(
 
-                text="💌 ɢʀᴏᴜᴘ",
+                text="ɢʀᴏᴜᴘ",
 
                 url=f"{SUPPORT_CHAT}",
 
             ),
+        ],
+        [
+            InlineKeyboardButton(
+
+                text="☢ᴄᴏᴍᴍᴜɴɪᴛʏ☢",
+
+                url=f"https://t.me/SANKI_XDX"),
+         InlineKeyboardButton(
+
+                text="☢ᴡᴇʙsɪᴛᴇ☢",
+
+                url=f"https://telegra.ph/SANKI-XD-MUSIC-05-27"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]

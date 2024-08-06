@@ -26,7 +26,7 @@
 
 [![ᴅᴇᴘʟᴏʏ ᴡɪᴛʜ ᴋᴏʏᴇʙ](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/skofficial0/New_sanki-Bot&branch=koyeb&name=New_sanki)
 
-[![Contributors](https://contrib.rocks/image?repo=DAXXTEAM/DAXXMUSIC)](https://github.com/DAXXTEAM/DAXXMUSIC/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Skofficial01/NEW_GEN_SANKI)](https://github.com/Skofficial01/NEW_GEN_SANKI/graphs/contributors)
 
 ### Contact :
 <a href="https://t.me/cyberdaxx"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
